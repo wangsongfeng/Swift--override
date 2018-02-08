@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A7E9CA202C88B10058308E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A7E9C9202C88B10058308E /* AppDelegate.swift */; };
+		18A7E9CC202C88B10058308E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A7E9CB202C88B10058308E /* ViewController.swift */; };
+		18A7E9CF202C88B10058308E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A7E9CD202C88B10058308E /* Main.storyboard */; };
+		18A7E9D1202C88B10058308E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A7E9D0202C88B10058308E /* Assets.xcassets */; };
+		18A7E9D4202C88B10058308E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A7E9D2202C88B10058308E /* LaunchScreen.storyboard */; };
+		18A7E9DF202C88B10058308E /* Swift_overrideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A7E9DE202C88B10058308E /* Swift_overrideTests.swift */; };
+		18A7E9EA202C88B20058308E /* Swift_overrideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A7E9E9202C88B20058308E /* Swift_overrideUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A7E9DB202C88B10058308E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A7E9BE202C88B10058308E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A7E9C5202C88B10058308E;
+			remoteInfo = "Swift-override";
+		};
+		18A7E9E6202C88B20058308E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A7E9BE202C88B10058308E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A7E9C5202C88B10058308E;
+			remoteInfo = "Swift-override";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A7E9C6202C88B10058308E /* Swift-override.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-override.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A7E9C9202C88B10058308E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18A7E9CB202C88B10058308E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18A7E9CE202C88B10058308E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A7E9D0202C88B10058308E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A7E9D3202C88B10058308E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A7E9D5202C88B10058308E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A7E9DA202C88B10058308E /* Swift-overrideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-overrideTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A7E9DE202C88B10058308E /* Swift_overrideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_overrideTests.swift; sourceTree = "<group>"; };
+		18A7E9E0202C88B20058308E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A7E9E5202C88B20058308E /* Swift-overrideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-overrideUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A7E9E9202C88B20058308E /* Swift_overrideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_overrideUITests.swift; sourceTree = "<group>"; };
+		18A7E9EB202C88B20058308E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A7E9C3202C88B10058308E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A7E9D7202C88B10058308E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A7E9E2202C88B20058308E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A7E9BD202C88B10058308E = {
+			isa = PBXGroup;
+			children = (
+				18A7E9C8202C88B10058308E /* Swift-override */,
+				18A7E9DD202C88B10058308E /* Swift-overrideTests */,
+				18A7E9E8202C88B20058308E /* Swift-overrideUITests */,
+				18A7E9C7202C88B10058308E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A7E9C7202C88B10058308E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A7E9C6202C88B10058308E /* Swift-override.app */,
+				18A7E9DA202C88B10058308E /* Swift-overrideTests.xctest */,
+				18A7E9E5202C88B20058308E /* Swift-overrideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A7E9C8202C88B10058308E /* Swift-override */ = {
+			isa = PBXGroup;
+			children = (
+				18A7E9C9202C88B10058308E /* AppDelegate.swift */,
+				18A7E9CB202C88B10058308E /* ViewController.swift */,
+				18A7E9CD202C88B10058308E /* Main.storyboard */,
+				18A7E9D0202C88B10058308E /* Assets.xcassets */,
+				18A7E9D2202C88B10058308E /* LaunchScreen.storyboard */,
+				18A7E9D5202C88B10058308E /* Info.plist */,
+			);
+			path = "Swift-override";
+			sourceTree = "<group>";
+		};
+		18A7E9DD202C88B10058308E /* Swift-overrideTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A7E9DE202C88B10058308E /* Swift_overrideTests.swift */,
+				18A7E9E0202C88B20058308E /* Info.plist */,
+			);
+			path = "Swift-overrideTests";
+			sourceTree = "<group>";
+		};
+		18A7E9E8202C88B20058308E /* Swift-overrideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18A7E9E9202C88B20058308E /* Swift_overrideUITests.swift */,
+				18A7E9EB202C88B20058308E /* Info.plist */,
+			);
+			path = "Swift-overrideUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A7E9C5202C88B10058308E /* Swift-override */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A7E9EE202C88B20058308E /* Build configuration list for PBXNativeTarget "Swift-override" */;
+			buildPhases = (
+				18A7E9C2202C88B10058308E /* Sources */,
+				18A7E9C3202C88B10058308E /* Frameworks */,
+				18A7E9C4202C88B10058308E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-override";
+			productName = "Swift-override";
+			productReference = 18A7E9C6202C88B10058308E /* Swift-override.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A7E9D9202C88B10058308E /* Swift-overrideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A7E9F1202C88B20058308E /* Build configuration list for PBXNativeTarget "Swift-overrideTests" */;
+			buildPhases = (
+				18A7E9D6202C88B10058308E /* Sources */,
+				18A7E9D7202C88B10058308E /* Frameworks */,
+				18A7E9D8202C88B10058308E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A7E9DC202C88B10058308E /* PBXTargetDependency */,
+			);
+			name = "Swift-overrideTests";
+			productName = "Swift-overrideTests";
+			productReference = 18A7E9DA202C88B10058308E /* Swift-overrideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A7E9E4202C88B20058308E /* Swift-overrideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A7E9F4202C88B20058308E /* Build configuration list for PBXNativeTarget "Swift-overrideUITests" */;
+			buildPhases = (
+				18A7E9E1202C88B20058308E /* Sources */,
+				18A7E9E2202C88B20058308E /* Frameworks */,
+				18A7E9E3202C88B20058308E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A7E9E7202C88B20058308E /* PBXTargetDependency */,
+			);
+			name = "Swift-overrideUITests";
+			productName = "Swift-overrideUITests";
+			productReference = 18A7E9E5202C88B20058308E /* Swift-overrideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A7E9BE202C88B10058308E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = yangchao;
+				TargetAttributes = {
+					18A7E9C5202C88B10058308E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					18A7E9D9202C88B10058308E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18A7E9C5202C88B10058308E;
+					};
+					18A7E9E4202C88B20058308E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18A7E9C5202C88B10058308E;
+					};
+				};
+			};
+			buildConfigurationList = 18A7E9C1202C88B10058308E /* Build configuration list for PBXProject "Swift-override" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A7E9BD202C88B10058308E;
+			productRefGroup = 18A7E9C7202C88B10058308E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A7E9C5202C88B10058308E /* Swift-override */,
+				18A7E9D9202C88B10058308E /* Swift-overrideTests */,
+				18A7E9E4202C88B20058308E /* Swift-overrideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A7E9C4202C88B10058308E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A7E9D4202C88B10058308E /* LaunchScreen.storyboard in Resources */,
+				18A7E9D1202C88B10058308E /* Assets.xcassets in Resources */,
+				18A7E9CF202C88B10058308E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A7E9D8202C88B10058308E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A7E9E3202C88B20058308E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A7E9C2202C88B10058308E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A7E9CC202C88B10058308E /* ViewController.swift in Sources */,
+				18A7E9CA202C88B10058308E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A7E9D6202C88B10058308E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A7E9DF202C88B10058308E /* Swift_overrideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A7E9E1202C88B20058308E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A7E9EA202C88B20058308E /* Swift_overrideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A7E9DC202C88B10058308E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A7E9C5202C88B10058308E /* Swift-override */;
+			targetProxy = 18A7E9DB202C88B10058308E /* PBXContainerItemProxy */;
+		};
+		18A7E9E7202C88B20058308E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A7E9C5202C88B10058308E /* Swift-override */;
+			targetProxy = 18A7E9E6202C88B20058308E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A7E9CD202C88B10058308E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A7E9CE202C88B10058308E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18A7E9D2202C88B10058308E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A7E9D3202C88B10058308E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A7E9EC202C88B20058308E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18A7E9ED202C88B20058308E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A7E9EF202C88B20058308E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5PE2ZM23A;
+				INFOPLIST_FILE = "Swift-override/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "oufei.com.Swift-override";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18A7E9F0202C88B20058308E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5PE2ZM23A;
+				INFOPLIST_FILE = "Swift-override/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "oufei.com.Swift-override";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18A7E9F2202C88B20058308E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5PE2ZM23A;
+				INFOPLIST_FILE = "Swift-overrideTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "oufei.com.Swift-overrideTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-override.app/Swift-override";
+			};
+			name = Debug;
+		};
+		18A7E9F3202C88B20058308E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5PE2ZM23A;
+				INFOPLIST_FILE = "Swift-overrideTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "oufei.com.Swift-overrideTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-override.app/Swift-override";
+			};
+			name = Release;
+		};
+		18A7E9F5202C88B20058308E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5PE2ZM23A;
+				INFOPLIST_FILE = "Swift-overrideUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "oufei.com.Swift-overrideUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swift-override";
+			};
+			name = Debug;
+		};
+		18A7E9F6202C88B20058308E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5PE2ZM23A;
+				INFOPLIST_FILE = "Swift-overrideUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "oufei.com.Swift-overrideUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swift-override";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A7E9C1202C88B10058308E /* Build configuration list for PBXProject "Swift-override" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A7E9EC202C88B20058308E /* Debug */,
+				18A7E9ED202C88B20058308E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A7E9EE202C88B20058308E /* Build configuration list for PBXNativeTarget "Swift-override" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A7E9EF202C88B20058308E /* Debug */,
+				18A7E9F0202C88B20058308E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A7E9F1202C88B20058308E /* Build configuration list for PBXNativeTarget "Swift-overrideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A7E9F2202C88B20058308E /* Debug */,
+				18A7E9F3202C88B20058308E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A7E9F4202C88B20058308E /* Build configuration list for PBXNativeTarget "Swift-overrideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A7E9F5202C88B20058308E /* Debug */,
+				18A7E9F6202C88B20058308E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A7E9BE202C88B10058308E /* Project object */;
+}
